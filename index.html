@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "stylemains.css">
+    <link rel="stylesheet" media = "screen and (max-width: 1000px)" href="tablets.css">
+    <link rel="stylesheet" media = "screen and (max-width: 530px)" href="mobiles.css">
+</head>
+
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="container flex">
+            <div id="random"></div>
+            <ul>
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#aboutme">About Me</a></li>
+                <li><a href = "#Photography">Photography</a></li>
+                <li><a href = "#Videography">Videography</a></li>
+                <li><a href = "#projects">Coding Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="home">
+        <div id = 'test'></div>
+        <div id="main">
+            <h1 id="mainheadings">DHRUV DIXIT</h1>
+            <button class="btn" id = "btn" onclick = "window.location.href = 'contactme.html'">
+                CONTACT ME
+            </button>
+        </div>
+    </section>
+
+
+    <section id="aboutme">
+        <h1 id="subheadings">ABOUT ME</h1>
+        <div class="pic">
+            <img src="../photos/DSC01154.jpg" id = 'mepic' alt="">
+            <div id="intro">
+                <h2>DHRUV DIXIT</h2>
+                <p><font size = '4'>Hey whats up! I'm currently a second year at Carnegie Mellon University studying Electrical and Computer Engineering. I'm originally from Los Angleles, California but was born in Dayton, Ohio. In my free time, I love to do photography and videography. I've been doing photography since middle school and videography since about a year ago. I also love to travel and have been to many countries around the world. Some of the places I've been to are Japan, England, Alaska, India, Singapore, Canada, and many more within the States. I also like to code haha... My goal in the end of my four years is to land a tech job to allow me to continue coding as a career and also have the flexibility to travel and continue my hobbies of photography and videography!</font></p>
+            </div>
+        </div>        
+    </section>
+
+
+    <section id="Photography">
+        <h1 id="subheadings2">PHOTOGRAPHY</h1>
+        <button type = 'button' id = "btn2" onclick = "window.location.href = 'Photogallery.html'">
+            <font size = '4'>VIEW GALLERY</font>
+        </button>
+        <div class="gallery">
+            <img src="../pictures/19273FC9-C2C5-46C5-900C-1400CCE7F78D.JPG" id = "img1" alt="">
+            <img src="../pictures/DSC00249.JPG" id = "img2" alt="">
+            <img src="../pictures/DSC00381.JPG" id = "img3" alt="">
+            <img src="../pictures/DSC00641.jpg"  id = "img4"alt="">
+            <img src="../pictures/DSC00686.jpg" id = "img5"alt="">
+            <img src="../pictures/DSC00696.jpg" id = "img6"alt="">
+            <img src="../pictures/DSC00827.jpg" id = "img7"alt="">
+            <img src="../pictures/DSC00844.jpg" id = "img8"alt="">
+            <img src="../pictures/DSC00860.jpg" id = "img9"alt="">
+            <img src="../pictures/DSC00998 2.jpg" id = "img10"alt="">
+            <img src="../pictures/DSC01862.jpg" id = "img11"alt="">
+            <img src="../pictures/DSC01893.jpg" id = "img12"alt="">
+            <img src="../pictures/DSC01951.jpg" id = "img13"alt="">
+            <img src="../pictures/DSC02054.jpg" id = "img14"alt="">
+            <img src="../pictures/DSC02093.jpg" id = "img15"alt="">
+            <img src="../pictures/DSC02118.jpg" id = "img16"alt="">
+            <img src="../pictures/E58AE13C-4BB7-4CDF-B86B-B7D55EFA7487.JPG" id = "img17"alt="">
+            <img src="../pictures/IMG_4961.jpg" id = "img18"alt="">
+            <img src="../pictures/IMG_5491.jpg" id = "img19"alt="">
+            <img src="../pictures/IMG_5742.jpg" id = "img20"alt="">
+        </div>
+    </section>
+
+
+    <section id="Videography">
+        <h1 id="subheadings3">VIDEOGRAPHY</h1>
+        <div class="youtube">
+            <div id="vidsummary">
+                <p><font size = '4'>Videography is something I started very recently and have grown to enjoy deeply. It all started out with one video from a travel videographer named Kold. It was his My Year 2016 Travel Film. After I saw it, I knew I had to try to make something like this. Since this was around the end of my senior year, I planned many trips over the summer. First was Maui where I made my first travel video. Then there were more places throughout the summer like Yosemite and New York. Honestly, I don't really know what direction I want to take in videography now but all I know is that I want to continue creating.</font></p>
+                <button type = 'button' class="btn2" onclick = "window.location.href = 'https://www.youtube.com/channel/UCP_6x4rd3LP3Ir2JVpHWGJQ'">
+                    <font size = '5'>YOUTUBE</font>
+                </button>
+            </div>
+            <img src="../photos/IMG_6704.jpg" alt="">
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h1 id="subheadings4">PROJECTS</h1>
+        <div class="pic">
+            <img src="../photos/PokemonTCG.jpg" alt="">
+            <div id="pokemonTCG">
+                <h2>Pokemon TCG Game</h2>
+                <p><font size = '4'>I created this game using Python and external libraries such as pygame. The game uses an advanced Monte Carlo Algorithm in the Hard Mode so that the opponent effectively chooses the best possible move to use. Object-oriented-programming was also used to create all pokemon classes and give them attributes such as health, attack, type, etc. OOP was also used to create methods of attack.</font></p>
+                <button type = 'button' class="btn3" onclick = "window.location.href = 'https://youtu.be/rHk7DGxHP9s'">
+                    <font size = '5'>Pokemon TCG Tutorial</font>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src = "main.js"></script>
+
+    
+
+</body>
+</html>
